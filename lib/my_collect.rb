@@ -1,4 +1,4 @@
-def my_collection (array)
+def my_collection 
   
   i = 0 
 
