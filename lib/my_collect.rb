@@ -8,5 +8,5 @@ def my_collection (array)
   
     i+=1
   end
-  new_array
+  array
 end
