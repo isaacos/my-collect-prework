@@ -1,13 +1,9 @@
-def my_collection 
-  
+def my_collection
   i = 0 
-
-  while i < array.length 
-  item = array[i]
-  
-     yield (item)
-  
-    i+=1
+  new_array = []
+  while i < array.length
+    new_array << yield(array)
   end
-  array
+  new_array
 end
+
