@@ -4,6 +4,7 @@ def my_collection (array)
 
   while i < array.length 
   item = array[i]
+  
      yield (item)
   
     i+=1
